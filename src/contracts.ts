@@ -90,6 +90,7 @@ export enum EXCHANGES_ENUM {
   'FX_IDC' = 'FX_IDC',
   'NYSE' = 'NYSE',
   'BINANCE' = 'BINANCE',
+  'FTX' = 'FTX',
   'BITTREX' = 'BITTREX',
 }
 
@@ -103,6 +104,7 @@ export enum INTERVALS_ENUM {
   '1m' = '1m',
   '5m' = '5m',
   '15m' = '15m',
+  '30m' = '30m',
   '1h' = '1h',
   '4h' = '4h',
   '1W' = '1W',
@@ -127,6 +129,7 @@ export const INTERVALS_SCHEMA = {
   '1m': '|1',
   '5m': '|5',
   '15m': '|15',
+  '30m': '|30',
   '1h': '|60',
   '4h': '|240',
   '1W': '|1W',
