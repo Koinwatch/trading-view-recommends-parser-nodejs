@@ -106,6 +106,7 @@ var INTERVALS_ENUM;
     INTERVALS_ENUM["1m"] = "1m";
     INTERVALS_ENUM["5m"] = "5m";
     INTERVALS_ENUM["15m"] = "15m";
+    INTERVALS_ENUM["30m"] = "30m";
     INTERVALS_ENUM["1h"] = "1h";
     INTERVALS_ENUM["4h"] = "4h";
     INTERVALS_ENUM["1W"] = "1W";
@@ -124,6 +125,7 @@ exports.INTERVALS_SCHEMA = {
     '1m': '|1',
     '5m': '|5',
     '15m': '|15',
+    '30m': '|30',
     '1h': '|60',
     '4h': '|240',
     '1W': '|1W',
